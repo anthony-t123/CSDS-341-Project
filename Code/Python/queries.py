@@ -11,4 +11,6 @@ def execute_query(query):
 
 def state_color(year):
     '''Returns what color each state was in a particular year'''
+    con = pymysql.connect(host='localhost', user='root', password='password', db='votes')
+    cur = con.cursor()
     return None

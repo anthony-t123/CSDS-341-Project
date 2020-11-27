@@ -1,3 +1,6 @@
+CREATE DATABASE votes;
+USE votes;
+
 CREATE TABLE votes.Political_Party(
     PartyName VARCHAR(50),
     Color     VARCHAR(50),
