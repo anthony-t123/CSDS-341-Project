@@ -80,11 +80,12 @@ IGNORE 1 rows;
 CREATE TABLE IF NOT EXISTS votes.Vote_Count(
     CandidateName  VARCHAR(50) NOT NULL,
     Year           INT NOT NULL,
+	StateName		VARCHAR(50) NOT NULL,
     CountyName     VARCHAR(50) NOT NULL,
     Count          INT NOT NULL,
-    PRIMARY KEY(CandidateName, Year, CountyName),
+    PRIMARY KEY(CandidateName, Year, StateName, CountyName),
     FOREIGN KEY(CandidateName, Year) REFERENCES Candidate(CandidateName, Year),
-    FOREIGN KEY(CountyName) REFERENCES County(CountyName)
+    FOREIGN KEY(StateName, CountyName) REFERENCES County(StateName, CountyName)
 );
 
 LOAD DATA LOCAL INFILE 'C:/Users/antho/Desktop/School/Case Western/Fall 2020/Intro to Database Systems/Term Project/CSDS-341-Project/Data/Raw/Nominates.csv'
