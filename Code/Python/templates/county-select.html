@@ -1,0 +1,38 @@
+
+<label for="state">State:{{test}}</label>
+<select class="form-control mr-2" id="state" name="state">
+    {% for item in states %}
+    {% if item[0] == state %}
+    <option selected>{{item[0]}}</option>
+    {% else %}
+    <option>{{item[0]}}</option>
+    {% endif %}
+    {% endfor %}
+</select>
+<label for="county">County:</label>
+<select class="form-control mr-2" id="county" name="county">
+    <option>All</option>
+
+</select>
+<script>
+    newOption = (name) => $("<option></option>").text(name);
+
+    populateCounties = (name) => {
+        var url = "/counties/" + $("#state").val();
+        $.get(url, function(data, status) {
+            var select = $("#county");
+            select.children().remove();
+            data.unshift("All");
+            data.forEach((x) => select.append(newOption(x)));
+            //Set the county with name as selected
+            $("option:contains('" + name + "')").prop("selected", true);
+        });
+    };
+
+    selectCounty = (name) => $("option:contains('" + name + "')").prop("selected", true);
+
+    $("#state").change(() => populateCounties("All"));
+
+    populateCounties("{{county if county else 'All'}}");
+
+</script>

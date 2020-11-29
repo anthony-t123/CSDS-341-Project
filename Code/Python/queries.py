@@ -7,8 +7,14 @@ def execute_query(query):
     con = pymysql.connect(host='localhost', user='root', password='password', db='votes')
     cur = con.cursor()
     cur.execute(query)
-    return cur.fetchall()
+    data = cur.fetchall()
+    cur.close()
+    con.close()
+    return data
 
 def state_color(year):
     '''Returns what color each state was in a particular year'''
     return None
+
+def states():
+    return execute_query('SELECT StateName FROM States')

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+<h1>Select State/County</h1>
+</div>
+<div class="row mb-4">
+    <form action="/county-stats" method="GET" class="form-inline">
+        {% include 'county-select.html' %}
+        <label for="year">Year:</label>
+        <select class="form-control mr-2" id="year" name="year">
+            <option>2000</option>
+            <option>2004</option>
+            <option>2008</option>
+            <option>2012</option>
+            <option>2016</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% if data %}
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr><th>Candidate</th><th>Votes</th></tr>
+        </thead>
+        <tbody>
+            {% for item in data %}
+            <tr><td>{{item[0]}}</td><td>{{item[1]}}</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+
+{% endblock %}

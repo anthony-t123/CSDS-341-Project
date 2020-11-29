@@ -22,16 +22,37 @@
                     State Map
                     </a>
                     <div class="dropdown-menu">
-                    <a class="dropdown-item" href="/election?year=2000">2000</a>
-                    <a class="dropdown-item" href="/election?year=2004">2004</a>
-                    <a class="dropdown-item" href="/election?year=2008">2008</a>
-                    <a class="dropdown-item" href="/election?year=2012">2012</a>
-                    <a class="dropdown-item" href="/election?year=2016">2016</a>
+                    <a class="dropdown-item" href="/election/2000">2000</a>
+                    <a class="dropdown-item" href="/election/2004">2004</a>
+                    <a class="dropdown-item" href="/election/2008">2008</a>
+                    <a class="dropdown-item" href="/election/2012">2012</a>
+                    <a class="dropdown-item" href="/election/2016">2016</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/county-stats">Votes by State/County</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/county-trends">Party Trends by State/County</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Voter Participation by State
+                    </a>
+                    <div class="dropdown-menu">
+                    <a class="dropdown-item" href="/participation/2000">2000</a>
+                    <a class="dropdown-item" href="/participation/2004">2004</a>
+                    <a class="dropdown-item" href="/participation/2008">2008</a>
+                    <a class="dropdown-item" href="/participation/2012">2012</a>
+                    <a class="dropdown-item" href="/participation/2016">2016</a>
                     </div>
                 </li>
                 </ul>
             </nav>
-            <div class="row">
+            <div class="container">
                 {% block content %}
                 {% endblock %}
             </div>

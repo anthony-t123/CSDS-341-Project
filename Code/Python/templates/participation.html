@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <h1>Voter Participation: {{year}}</h1>
+</div>
+<div class="row">
+    <table class="table">
+        <thead>
+            <tr><th>State</th><th>Participation</th></tr>
+        </thead>
+        <tbody>
+            {% for item in data %}
+            <tr><td>{{item[0]}}</td><td>{{item[1]}}</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
