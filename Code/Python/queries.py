@@ -50,6 +50,27 @@ def county_votes(state, county, year):
         query = '''SELECT CandidateName, Count FROM vote_count WHERE StateName='{}' AND CountyName='{}' AND Year='{}' '''.format(state, county, year)
     return execute_query(query)
 
+def county_trends(state, county):
+    if county == 'All':
+        query = '''(SELECT DISTINCT v.year, v.Count, v3.Count
+                    FROM state_votes v, nominates n, (SELECT v2.year, v2.Count
+                                                                FROM state_votes v2, nominates n2
+                                                                WHERE v2.StateName='{}' AND v2.CandidateName = n2.CandidateName AND n2.PartyName = 'democrat') v3
+                    WHERE v.StateName='{}' AND v.CandidateName = n.CandidateName AND n.PartyName = 'republican' AND v.Year = v3.Year)
+                    ORDER BY v.year
+                    
+        '''.format(state, state)
+    else:
+        query = '''(SELECT DISTINCT v.year, v.Count, v3.Count
+                    FROM vote_count v, nominates n, (SELECT v2.year, v2.Count
+                                                                FROM vote_count v2, nominates n2
+                                                                WHERE v2.StateName='{}' AND v2.CountyName='{}' AND v2.CandidateName = n2.CandidateName AND n2.PartyName = 'democrat') v3
+                    WHERE v.StateName='{}' AND v.CountyName='{}' AND v.CandidateName = n.CandidateName AND n.PartyName = 'republican' AND v.Year = v3.Year)
+                    ORDER BY v.year
+                    
+        '''.format(state, county, state, county)
+    return execute_query(query)
+
 
 def state_votes(year, candidate):
     #Return number of votes in states for given year and candidate

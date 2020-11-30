@@ -27,7 +27,9 @@ def county_stats():
 @app.route('/county-trends')
 def county_trends():
     if request.args.get('county') is not None:
-        data = ((2000, 123, 456), (2004, 543, 234))
+        state = request.args.get('state')
+        county = request.args.get('county')
+        data = queries.county_trends(state, county)
         return render_template('county-trends.html', states=queries.states(), state=request.args.get('state'), county=request.args.get('county'), data=data)
     return render_template('county-trends.html', states=queries.states())
 
