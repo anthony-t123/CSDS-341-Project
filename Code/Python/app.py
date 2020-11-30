@@ -11,7 +11,6 @@ def index():
 @app.route('/election/<int:year>')
 def election(year):
     data = queries.state_color(year)
-    print(data)
     return render_template('election.html', year=year, data=data)
 
 @app.route('/county-stats', methods=['GET'])
