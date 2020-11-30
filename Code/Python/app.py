@@ -10,13 +10,17 @@ def index():
 
 @app.route('/election/<int:year>')
 def election(year):
-    data = [('OH', '#0000FF')]
+    data = queries.state_color(year)
+    print(data)
     return render_template('election.html', year=year, data=data)
 
 @app.route('/county-stats', methods=['GET'])
 def county_stats():
     if request.args.get('year') is not None:
-        data = (('Candidate1', 2131), (request.args.get('county'), 1234))
+        state = request.args.get('state')
+        county = request.args.get('county')
+        year = request.args.get('year')
+        data = queries.county_votes(state, county, year)
         return render_template('county-stats.html', test='qerty', states=queries.states(), state=request.args.get('state'), county=request.args.get('county'), data=data)
     return render_template('county-stats.html', states=queries.states())
 
