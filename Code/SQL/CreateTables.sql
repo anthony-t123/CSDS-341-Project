@@ -18,7 +18,7 @@ IGNORE 1 rows;
 
 CREATE TABLE IF NOT EXISTS votes.States(
     StateName    VARCHAR(50) NOT NULL,
-    Abbreviation VARCHAR(50) NOT NULL,
+    Abbreviation VARCHAR(2) NOT NULL,
     PRIMARY KEY(StateName)
 );
 LOAD DATA LOCAL INFILE 'C:/Users/antho/Desktop/School/Case Western/Fall 2020/Intro to Database Systems/Term Project/CSDS-341-Project/Data/Raw/States.csv'
