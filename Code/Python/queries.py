@@ -72,9 +72,13 @@ def county_trends(state, county):
     return execute_query(query)
 
 
-def state_votes(year, candidate):
+def state_votes(state, year):
     #Return number of votes in states for given year and candidate
-    return None
+    query = '''SELECT vc.CandidateName, vc.CountyName, vc.Count
+               FROM vote_count vc
+               WHERE vc.StateName = '{}' AND vc.Year = '{}'
+    '''.format(state, year)
+    return execute_query(query)
 
 def state_electoral(year):
     #Return number of electoral votes states have in a given year
