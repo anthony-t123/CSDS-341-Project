@@ -31,8 +31,8 @@ IGNORE 1 rows;
 CREATE TABLE IF NOT EXISTS votes.Candidate(
     CandidateName  VARCHAR(50) NOT NULL,
     Year           INT NOT NULL,
-    Age            INT NOT NULL,
-    HomeState      VARCHAR(50) NOT NULL,
+    Age            INT,
+    HomeState      VARCHAR(50),
     PRIMARY KEY(CandidateName, Year),
     FOREIGN KEY(HomeState) REFERENCES States(StateName)
 );
@@ -70,7 +70,6 @@ FIELDS TERMINATED BY ","
 ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 rows;
-
 
 CREATE TABLE IF NOT EXISTS votes.Vote_Count(
     CandidateName  VARCHAR(50) NOT NULL,
