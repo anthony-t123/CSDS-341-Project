@@ -17,7 +17,7 @@ def state_color(year):
     query = '''
             SELECT s.Abbreviation, p.Color
             FROM state_votes s1, nominates n, political_party p, states s
-            WHERE s1.Year='2016' AND s1.Count >= ALL (SELECT s2.Count
+            WHERE s1.Year='2012' AND s1.Count >= ALL (SELECT s2.Count
                                                     FROM state_votes s2
                                                     WHERE s1.year = s2.year AND s1.StateName = s2.StateName)
                     AND s1.CandidateName = n.CandidateName AND s1.Year = n.Year AND n.PartyName = p.PartyName AND s1.StateName = s.StateName
@@ -28,7 +28,7 @@ def electoral_votes(year):
     query = '''
             SELECT s1.CandidateName, sum(s.ElectoralVotes)
             FROM state_votes s1, statistics s
-            WHERE s1.Year='2016' AND s1.Count >= ALL (SELECT s2.Count
+            WHERE s1.Year='2012' AND s1.Count >= ALL (SELECT s2.Count
                                                     FROM state_votes s2
                                                     WHERE s1.year = s2.year AND s1.StateName = s2.StateName)
                     AND s1.StateName = s.StateName AND s1.Year = s.Year
