@@ -1,256 +1,256 @@
-﻿StateName,Year,ElectoralVotes,VEP
-Alabama,2000,9,"3,241,682"
-Alaska,2000,3,"419,111"
-Arizona,2000,8,"3,357,701"
-Arkansas,2000,6,"1,925,961"
-California,2000,54,"19,685,258"
-Colorado,2000,8,"3,026,316"
-Connecticut,2000,8,"2,357,687"
-Delaware,2000,3,"554,863"
-District of Columbia,2000,3,"416,696"
-Florida,2000,25,"10,667,193"
-Georgia,2000,13,"5,639,668"
-Hawaii,2000,4,"832,642"
-Idaho,2000,4,"877,406"
-Illinois,2000,22,"8,432,600"
-Indiana,2000,12,"4,424,909"
-Iowa,2000,7,"2,082,950"
-Kansas,2000,6,"1,927,950"
-Kentucky,2000,8,"2,955,628"
-Louisiana,2000,9,"3,130,267"
-Maine,2000,4,"969,292"
-Maryland,2000,10,"3,649,631"
-Massachusetts,2000,12,"4,517,052"
-Michigan,2000,18,"7,070,702"
-Minnesota,2000,10,"3,506,432"
-Mississippi,2000,7,"2,024,650"
-Missouri,2000,11,"4,052,255"
-Montana,2000,3,"667,525"
-Nebraska,2000,5,"1,224,178"
-Nevada,2000,4,"1,346,116"
-New Hampshire,2000,4,"890,622"
-New Jersey,2000,15,"5,601,788"
-New Mexico,2000,5,"1,234,088"
-New York,2000,33,"12,380,208"
-North Carolina,2000,14,"5,744,241"
-North Dakota,2000,3,"477,968"
-Ohio,2000,21,"8,295,592"
-Oklahoma,2000,8,"2,475,220"
-Oregon,2000,7,"2,364,402"
-Pennsylvania,2000,23,"9,086,897"
-Rhode Island,2000,4,"753,877"
-South Carolina,2000,8,"2,944,326"
-South Dakota,2000,3,"548,498"
-Tennessee,2000,11,"4,162,996"
-Texas,2000,32,"13,033,081"
-Utah,2000,5,"1,431,668"
-Vermont,2000,3,"459,174"
-Virginia,2000,13,"5,069,265"
-Washington,2000,11,"4,098,044"
-West Virginia,2000,5,"1,390,365"
-Wisconsin,2000,11,"3,842,044"
-Wyoming,2000,3,"361,078"
-Alabama,2004,9,"3,292,608"
-Alaska,2004,3,"452,124"
-Arizona,2004,10,"3,717,055"
-Arkansas,2004,6,"1,969,208"
-California,2004,55,"21,132,533"
-Colorado,2004,9,"3,192,647"
-Connecticut,2004,7,"2,429,634"
-Delaware,2004,3,"584,817"
-District of Columbia,2004,3,"419,142"
-Florida,2004,27,"11,811,921"
-Georgia,2004,15,"5,878,186"
-Hawaii,2004,4,"889,540"
-Idaho,2004,4,"946,160"
-Illinois,2004,21,"8,576,696"
-Indiana,2004,11,"4,504,260"
-Iowa,2004,7,"2,156,389"
-Kansas,2004,6,"1,928,764"
-Kentucky,2004,8,"3,057,741"
-Louisiana,2004,9,"3,182,762"
-Maine,2004,4,"1,003,792"
-Maryland,2004,10,"3,797,264"
-Massachusetts,2004,12,"4,533,859"
-Michigan,2004,17,"7,263,024"
-Minnesota,2004,10,"3,609,185"
-Mississippi,2004,6,"2,068,766"
-Missouri,2004,11,"4,180,960"
-Montana,2004,3,"699,114"
-Nebraska,2004,5,"1,236,522"
-Nevada,2004,5,"1,501,437"
-New Hampshire,2004,4,"956,422"
-New Jersey,2004,15,"5,663,201"
-New Mexico,2004,5,"1,282,767"
-New York,2004,31,"12,738,056"
-North Carolina,2004,15,"6,055,771"
-North Dakota,2004,3,"482,722"
-Ohio,2004,20,"8,427,696"
-Oklahoma,2004,7,"2,510,823"
-Oregon,2004,7,"2,550,887"
-Pennsylvania,2004,21,"9,221,962"
-Rhode Island,2004,4,"747,046"
-South Carolina,2004,8,"3,055,098"
-South Dakota,2004,3,"569,161"
-Tennessee,2004,11,"4,328,446"
-Texas,2004,34,"13,796,256"
-Utah,2004,5,"1,574,463"
-Vermont,2004,3,"470,754"
-Virginia,2004,13,"5,277,156"
-Washington,2004,11,"4,272,914"
-West Virginia,2004,5,"1,396,545"
-Wisconsin,2004,10,"4,006,948"
-Wyoming,2004,3,"370,785"
-Alabama,2008,9,"3,454,510"
-Alaska,2008,3,"479,429"
-Arizona,2008,10,"4,046,075"
-Arkansas,2008,6,"2,071,563"
-California,2008,55,"22,261,504"
-Colorado,2008,9,"3,382,959"
-Connecticut,2008,7,"2,471,082"
-Delaware,2008,3,"628,200"
-District of Columbia,2008,3,"432,566"
-Florida,2008,27,"12,687,407"
-Georgia,2008,15,"6,281,872"
-Hawaii,2008,4,"930,067"
-Idaho,2008,4,"1,029,416"
-Illinois,2008,21,"8,681,138"
-Indiana,2008,11,"4,653,019"
-Iowa,2008,7,"2,216,094"
-Kansas,2008,6,"1,991,759"
-Kentucky,2008,8,"3,152,629"
-Louisiana,2008,9,"3,205,794"
-Maine,2008,4,"1,036,242"
-Maryland,2008,10,"3,925,117"
-Massachusetts,2008,12,"4,612,550"
-Michigan,2008,17,"7,229,512"
-Minnesota,2008,10,"3,740,142"
-Mississippi,2008,6,"2,113,347"
-Missouri,2008,11,"4,327,572"
-Montana,2008,3,"741,853"
-Nebraska,2008,5,"1,274,719"
-Nevada,2008,5,"1,696,831"
-New Hampshire,2008,4,"992,226"
-New Jersey,2008,15,"5,776,527"
-New Mexico,2008,5,"1,362,629"
-New York,2008,31,"12,948,969"
-North Carolina,2008,15,"6,584,302"
-North Dakota,2008,3,"504,762"
-Ohio,2008,20,"8,513,079"
-Oklahoma,2008,7,"2,619,121"
-Oregon,2008,7,"2,700,327"
-Pennsylvania,2008,21,"9,457,942"
-Rhode Island,2008,4,"763,608"
-South Carolina,2008,8,"3,311,044"
-South Dakota,2008,3,"590,720"
-Tennessee,2008,11,"4,563,192"
-Texas,2008,34,"14,929,810"
-Utah,2008,5,"1,700,286"
-Vermont,2008,3,"482,677"
-Virginia,2008,13,"5,555,415"
-Washington,2008,11,"4,561,163"
-West Virginia,2008,5,"1,430,439"
-Wisconsin,2008,10,"4,120,694"
-Wyoming,2008,3,"405,732"
-Alabama,2012,9,"3,539,217"
-Alaska,2012,3,"511,792"
-Arizona,2012,11,"4,387,900"
-Arkansas,2012,6,"2,109,847"
-California,2012,55,"23,681,837"
-Colorado,2012,9,"3,675,871"
-Connecticut,2012,7,"2,543,202"
-Delaware,2012,3,"663,967"
-District of Columbia,2012,3,"477,582"
-Florida,2012,29,"13,495,057"
-Georgia,2012,16,"6,606,607"
-Hawaii,2012,4,"982,902"
-Idaho,2012,4,"1,091,410"
-Illinois,2012,20,"8,899,143"
-Indiana,2012,11,"4,755,291"
-Iowa,2012,6,"2,251,748"
-Kansas,2012,6,"2,030,686"
-Kentucky,2012,8,"3,229,185"
-Louisiana,2012,8,"3,311,626"
-Maine,2012,4,"1,046,008"
-Maryland,2012,10,"4,063,582"
-Massachusetts,2012,11,"4,809,675"
-Michigan,2012,16,"7,312,725"
-Minnesota,2012,10,"3,861,598"
-Mississippi,2012,6,"2,166,825"
-Missouri,2012,10,"4,432,957"
-Montana,2012,3,"774,476"
-Nebraska,2012,5,"1,316,915"
-Nevada,2012,6,"1,800,969"
-New Hampshire,2012,4,"1,013,420"
-New Jersey,2012,14,"5,918,182"
-New Mexico,2012,5,"1,436,363"
-New York,2012,29,"13,324,107"
-North Carolina,2012,15,"6,947,954"
-North Dakota,2012,3,"539,164"
-Ohio,2012,18,"8,649,495"
-Oklahoma,2012,7,"2,713,268"
-Oregon,2012,7,"2,836,101"
-Pennsylvania,2012,20,"9,651,432"
-Rhode Island,2012,4,"768,918"
-South Carolina,2012,9,"3,486,838"
-South Dakota,2012,3,"613,190"
-Tennessee,2012,11,"4,736,084"
-Texas,2012,38,"16,119,973"
-Utah,2012,6,"1,833,339"
-Vermont,2012,3,"493,355"
-Virginia,2012,13,"5,834,676"
-Washington,2012,12,"4,822,060"
-West Virginia,2012,5,"1,447,066"
-Wisconsin,2012,10,"4,209,370"
-Wyoming,2012,3,"425,142"
-Alabama,2016,9,"3,609,447"
-Alaska,2016,3,"522,679"
-Arizona,2016,11,"4,740,310"
-Arkansas,2016,6,"2,140,097"
-California,2016,55,"25,104,844"
-Colorado,2016,9,"3,974,405"
-Connecticut,2016,7,"2,582,761"
-Delaware,2016,3,"691,720"
-District of Columbia,2016,3,"515,248"
-Florida,2016,29,"14,601,066"
-Georgia,2016,16,"6,959,963"
-Hawaii,2016,4,"1,012,860"
-Idaho,2016,4,"1,166,706"
-Illinois,2016,20,"8,985,443"
-Indiana,2016,11,"4,849,937"
-Iowa,2016,6,"2,288,536"
-Kansas,2016,6,"2,054,025"
-Kentucky,2016,8,"3,282,420"
-Louisiana,2016,8,"3,384,435"
-Maine,2016,4,"1,058,372"
-Maryland,2016,10,"4,189,616"
-Massachusetts,2016,11,"4,948,028"
-Michigan,2016,16,"7,420,628"
-Minnesota,2016,10,"3,973,204"
-Mississippi,2016,6,"2,191,241"
-Missouri,2016,10,"4,517,925"
-Montana,2016,3,"804,250"
-Nebraska,2016,5,"1,343,821"
-Nevada,2016,6,"1,961,587"
-New Hampshire,2016,4,"1,042,795"
-New Jersey,2016,14,"6,013,656"
-New Mexico,2016,5,"1,464,515"
-New York,2016,29,"13,604,645"
-North Carolina,2016,15,"7,352,501"
-North Dakota,2016,3,"566,783"
-Ohio,2016,18,"8,736,808"
-Oklahoma,2016,7,"2,778,219"
-Oregon,2016,7,"3,024,174"
-Pennsylvania,2016,20,"9,691,160"
-Rhode Island,2016,4,"786,012"
-South Carolina,2016,9,"3,709,283"
-South Dakota,2016,3,"631,173"
-Tennessee,2016,11,"4,909,426"
-Texas,2016,38,"17,448,910"
-Utah,2016,6,"1,991,885"
-Vermont,2016,3,"494,871"
-Virginia,2016,13,"6,027,152"
-Washington,2016,12,"5,123,020"
-West Virginia,2016,5,"1,423,031"
-Wisconsin,2016,10,"4,285,071"
-Wyoming,2016,3,"429,682"
+﻿StateName,Year,ElectoralVotes,StatePop
+Alabama,2000,9,3241682
+Alaska,2000,3,419111
+Arizona,2000,8,3357701
+Arkansas,2000,6,1925961
+California,2000,54,19685258
+Colorado,2000,8,3026316
+Connecticut,2000,8,2357687
+Delaware,2000,3,554863
+District of Columbia,2000,3,416696
+Florida,2000,25,10667193
+Georgia,2000,13,5639668
+Hawaii,2000,4,832642
+Idaho,2000,4,877406
+Illinois,2000,22,8432600
+Indiana,2000,12,4424909
+Iowa,2000,7,2082950
+Kansas,2000,6,1927950
+Kentucky,2000,8,2955628
+Louisiana,2000,9,3130267
+Maine,2000,4,969292
+Maryland,2000,10,3649631
+Massachusetts,2000,12,4517052
+Michigan,2000,18,7070702
+Minnesota,2000,10,3506432
+Mississippi,2000,7,2024650
+Missouri,2000,11,4052255
+Montana,2000,3,667525
+Nebraska,2000,5,1224178
+Nevada,2000,4,1346116
+New Hampshire,2000,4,890622
+New Jersey,2000,15,5601788
+New Mexico,2000,5,1234088
+New York,2000,33,12380208
+North Carolina,2000,14,5744241
+North Dakota,2000,3,477968
+Ohio,2000,21,8295592
+Oklahoma,2000,8,2475220
+Oregon,2000,7,2364402
+Pennsylvania,2000,23,9086897
+Rhode Island,2000,4,753877
+South Carolina,2000,8,2944326
+South Dakota,2000,3,548498
+Tennessee,2000,11,4162996
+Texas,2000,32,13033081
+Utah,2000,5,1431668
+Vermont,2000,3,459174
+Virginia,2000,13,5069265
+Washington,2000,11,4098044
+West Virginia,2000,5,1390365
+Wisconsin,2000,11,3842044
+Wyoming,2000,3,361078
+Alabama,2004,9,3292608
+Alaska,2004,3,452124
+Arizona,2004,10,3717055
+Arkansas,2004,6,1969208
+California,2004,55,21132533
+Colorado,2004,9,3192647
+Connecticut,2004,7,2429634
+Delaware,2004,3,584817
+District of Columbia,2004,3,419142
+Florida,2004,27,11811921
+Georgia,2004,15,5878186
+Hawaii,2004,4,889540
+Idaho,2004,4,946160
+Illinois,2004,21,8576696
+Indiana,2004,11,4504260
+Iowa,2004,7,2156389
+Kansas,2004,6,1928764
+Kentucky,2004,8,3057741
+Louisiana,2004,9,3182762
+Maine,2004,4,1003792
+Maryland,2004,10,3797264
+Massachusetts,2004,12,4533859
+Michigan,2004,17,7263024
+Minnesota,2004,10,3609185
+Mississippi,2004,6,2068766
+Missouri,2004,11,4180960
+Montana,2004,3,699114
+Nebraska,2004,5,1236522
+Nevada,2004,5,1501437
+New Hampshire,2004,4,956422
+New Jersey,2004,15,5663201
+New Mexico,2004,5,1282767
+New York,2004,31,12738056
+North Carolina,2004,15,6055771
+North Dakota,2004,3,482722
+Ohio,2004,20,8427696
+Oklahoma,2004,7,2510823
+Oregon,2004,7,2550887
+Pennsylvania,2004,21,9221962
+Rhode Island,2004,4,747046
+South Carolina,2004,8,3055098
+South Dakota,2004,3,569161
+Tennessee,2004,11,4328446
+Texas,2004,34,13796256
+Utah,2004,5,1574463
+Vermont,2004,3,470754
+Virginia,2004,13,5277156
+Washington,2004,11,4272914
+West Virginia,2004,5,1396545
+Wisconsin,2004,10,4006948
+Wyoming,2004,3,370785
+Alabama,2008,9,3454510
+Alaska,2008,3,479429
+Arizona,2008,10,4046075
+Arkansas,2008,6,2071563
+California,2008,55,22261504
+Colorado,2008,9,3382959
+Connecticut,2008,7,2471082
+Delaware,2008,3,628200
+District of Columbia,2008,3,432566
+Florida,2008,27,12687407
+Georgia,2008,15,6281872
+Hawaii,2008,4,930067
+Idaho,2008,4,1029416
+Illinois,2008,21,8681138
+Indiana,2008,11,4653019
+Iowa,2008,7,2216094
+Kansas,2008,6,1991759
+Kentucky,2008,8,3152629
+Louisiana,2008,9,3205794
+Maine,2008,4,1036242
+Maryland,2008,10,3925117
+Massachusetts,2008,12,4612550
+Michigan,2008,17,7229512
+Minnesota,2008,10,3740142
+Mississippi,2008,6,2113347
+Missouri,2008,11,4327572
+Montana,2008,3,741853
+Nebraska,2008,5,1274719
+Nevada,2008,5,1696831
+New Hampshire,2008,4,992226
+New Jersey,2008,15,5776527
+New Mexico,2008,5,1362629
+New York,2008,31,12948969
+North Carolina,2008,15,6584302
+North Dakota,2008,3,504762
+Ohio,2008,20,8513079
+Oklahoma,2008,7,2619121
+Oregon,2008,7,2700327
+Pennsylvania,2008,21,9457942
+Rhode Island,2008,4,763608
+South Carolina,2008,8,3311044
+South Dakota,2008,3,590720
+Tennessee,2008,11,4563192
+Texas,2008,34,14929810
+Utah,2008,5,1700286
+Vermont,2008,3,482677
+Virginia,2008,13,5555415
+Washington,2008,11,4561163
+West Virginia,2008,5,1430439
+Wisconsin,2008,10,4120694
+Wyoming,2008,3,405732
+Alabama,2012,9,3539217
+Alaska,2012,3,511792
+Arizona,2012,11,4387900
+Arkansas,2012,6,2109847
+California,2012,55,23681837
+Colorado,2012,9,3675871
+Connecticut,2012,7,2543202
+Delaware,2012,3,663967
+District of Columbia,2012,3,477582
+Florida,2012,29,13495057
+Georgia,2012,16,6606607
+Hawaii,2012,4,982902
+Idaho,2012,4,1091410
+Illinois,2012,20,8899143
+Indiana,2012,11,4755291
+Iowa,2012,6,2251748
+Kansas,2012,6,2030686
+Kentucky,2012,8,3229185
+Louisiana,2012,8,3311626
+Maine,2012,4,1046008
+Maryland,2012,10,4063582
+Massachusetts,2012,11,4809675
+Michigan,2012,16,7312725
+Minnesota,2012,10,3861598
+Mississippi,2012,6,2166825
+Missouri,2012,10,4432957
+Montana,2012,3,774476
+Nebraska,2012,5,1316915
+Nevada,2012,6,1800969
+New Hampshire,2012,4,1013420
+New Jersey,2012,14,5918182
+New Mexico,2012,5,1436363
+New York,2012,29,13324107
+North Carolina,2012,15,6947954
+North Dakota,2012,3,539164
+Ohio,2012,18,8649495
+Oklahoma,2012,7,2713268
+Oregon,2012,7,2836101
+Pennsylvania,2012,20,9651432
+Rhode Island,2012,4,768918
+South Carolina,2012,9,3486838
+South Dakota,2012,3,613190
+Tennessee,2012,11,4736084
+Texas,2012,38,16119973
+Utah,2012,6,1833339
+Vermont,2012,3,493355
+Virginia,2012,13,5834676
+Washington,2012,12,4822060
+West Virginia,2012,5,1447066
+Wisconsin,2012,10,4209370
+Wyoming,2012,3,425142
+Alabama,2016,9,3609447
+Alaska,2016,3,522679
+Arizona,2016,11,4740310
+Arkansas,2016,6,2140097
+California,2016,55,25104844
+Colorado,2016,9,3974405
+Connecticut,2016,7,2582761
+Delaware,2016,3,691720
+District of Columbia,2016,3,515248
+Florida,2016,29,14601066
+Georgia,2016,16,6959963
+Hawaii,2016,4,1012860
+Idaho,2016,4,1166706
+Illinois,2016,20,8985443
+Indiana,2016,11,4849937
+Iowa,2016,6,2288536
+Kansas,2016,6,2054025
+Kentucky,2016,8,3282420
+Louisiana,2016,8,3384435
+Maine,2016,4,1058372
+Maryland,2016,10,4189616
+Massachusetts,2016,11,4948028
+Michigan,2016,16,7420628
+Minnesota,2016,10,3973204
+Mississippi,2016,6,2191241
+Missouri,2016,10,4517925
+Montana,2016,3,804250
+Nebraska,2016,5,1343821
+Nevada,2016,6,1961587
+New Hampshire,2016,4,1042795
+New Jersey,2016,14,6013656
+New Mexico,2016,5,1464515
+New York,2016,29,13604645
+North Carolina,2016,15,7352501
+North Dakota,2016,3,566783
+Ohio,2016,18,8736808
+Oklahoma,2016,7,2778219
+Oregon,2016,7,3024174
+Pennsylvania,2016,20,9691160
+Rhode Island,2016,4,786012
+South Carolina,2016,9,3709283
+South Dakota,2016,3,631173
+Tennessee,2016,11,4909426
+Texas,2016,38,17448910
+Utah,2016,6,1991885
+Vermont,2016,3,494871
+Virginia,2016,13,6027152
+Washington,2016,12,5123020
+West Virginia,2016,5,1423031
+Wisconsin,2016,10,4285071
+Wyoming,2016,3,429682

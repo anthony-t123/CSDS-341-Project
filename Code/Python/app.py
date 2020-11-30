@@ -36,7 +36,7 @@ def participation(year):
 def counties(state):
     state1 = state + '1'
     state2 = state + '2'
-    return jsonify(((state1), (state2)))
+    return jsonify(queries.counties(state))
 
 if __name__ == '__main__':
     app.run(debug=True)

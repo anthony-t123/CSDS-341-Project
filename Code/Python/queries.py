@@ -17,4 +17,18 @@ def state_color(year):
     return None
 
 def states():
-    return execute_query('SELECT StateName FROM States')
+    return execute_query('SELECT StateName FROM states')
+
+def counties(state):
+    query = 'SELECT CountyName FROM county WHERE StateName = \'{}\' '.format(state)
+    print(query)
+    return execute_query(query)
+
+
+def state_votes(year, candidate):
+    #Return number of votes in states for given year and candidate
+    return None
+
+def state_electoral(year):
+    #Return number of electoral votes states have in a given year
+    return None
